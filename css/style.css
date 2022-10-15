@@ -173,6 +173,7 @@ body {
 .caixa-btn {
     display: flex;
     justify-content: center;
+
 }
 
 .btn-d {
@@ -215,7 +216,7 @@ body {
 
 .banner-terceiro {
     width: 100%;
-    min-height: 470px;
+    min-height: 575px;
     height: auto;
     color: white;
     background: #c2bfbf;
@@ -245,6 +246,8 @@ body {
 }
 
 .nav {
+    display: flex;
+    justify-content: center;
     margin-left: 90px;
     width: 287px;
     border: 1px solid white;
@@ -253,11 +256,12 @@ body {
 }
 
 .nav h2 {
+    display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
     font-family: "TitilliumWeb";
     font-size: 24px;
-    margin-left: 10%;
     margin-top: 20px;
     color: white;
 
@@ -401,6 +405,25 @@ body {
 
     }
 
+    .caixa-btn {
+        display: flex;
+        justify-content: end;
+        margin-left: -10px;
+        margin-top: 55px;
+
+    }
+
+    .banner-terceiro {
+        width: 100%;
+        min-height: 830px;
+        height: auto;
+        color: white;
+        background: #c2bfbf;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+
     .titulo-certific h1 {
         display: flex;
         justify-content: start;
@@ -422,7 +445,6 @@ body {
         margin: 5vw 13vw;
         border-radius: 36px;
         border: 1px solid white
-
     }
 
     .img-diploma {

@@ -219,7 +219,7 @@ body {
     min-height: 445px;
     height: auto;
     color: white;
-    background: #c2bfbf;
+    background: darkblue;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -228,7 +228,7 @@ body {
 .titulo-certific h1 {
     display: flex;
     justify-content: center;
-    margin-top: 16px;
+
 }
 
 .caixa-certific {
@@ -305,6 +305,12 @@ body {
     justify-content: space-around;
     height: 100%
 }
+
+.titulo-projeto h1{
+    margin-left: 165px;
+   
+
+} 
 
 .caixa-card {
     display: flex;
@@ -481,7 +487,7 @@ body {
         min-height: 830px;
         height: auto;
         color: white;
-        background: #c2bfbf;
+        background: darkblue;
         background-repeat: no-repeat;
         background-size: 100% 100%;
 
@@ -518,6 +524,14 @@ body {
     .card-body {
         min-width: auto;
     }
+
+    .titulo-projeto h1{
+        display: flex;
+        justify-content: start;
+        margin: 30px 15px;
+        
+    
+    } 
 
 
 

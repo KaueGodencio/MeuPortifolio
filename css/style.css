@@ -216,7 +216,7 @@ body {
 
 .banner-terceiro {
     width: 100%;
-    min-height: 575px;
+    min-height: 445px;
     height: auto;
     color: white;
     background: #c2bfbf;
@@ -287,6 +287,69 @@ body {
     margin-bottom: 24px;
 
 }
+
+.banner-quarto {
+    width: 100%;
+    min-height: 830px;
+    height: auto;
+    color: white;
+    background: #c2bfbf;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.banner-quarto-box {
+    display: inline;
+    justify-content: space-around;
+    height: 100%
+}
+
+.caixa-card {
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+
+.card-projetos {
+    border-radius: 35px;
+    border: none;
+    background: #c2bfbf;
+    width: 892px;
+    margin: 22px;
+    min-height: 190px
+
+
+
+}
+
+.card-itens {
+    margin: 22px;
+
+
+
+}
+
+.card-body {
+    min-width: 844px;
+}
+
+
+.card-img{
+
+    margin-top: 10px;
+
+
+
+
+}
+
+
+
+
+
 
 /* INICIO RODAPE/FOOTER */
 
@@ -421,7 +484,7 @@ body {
         background: #c2bfbf;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-    
+
     }
 
     .titulo-certific h1 {
@@ -451,6 +514,15 @@ body {
         margin: 3px 60px;
         height: 40vw;
     }
+
+    .card-body {
+        min-width: auto;
+    }
+
+
+
+
+
 
 
 }

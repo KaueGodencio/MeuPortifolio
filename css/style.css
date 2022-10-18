@@ -72,13 +72,14 @@ body {
 
     height: 610px;
     width: 100%;
-    background-color: #080864;
+    background-color: #918d8d;
 
 }
 
 .banner-box {
     display: flex;
     justify-content: center;
+    width: 100%;
     background-image: linear-gradient(to right, #080864, #918d8d);
 
     /* background-image: linear-gradient(to right,#0d0d97 , #b3b3b3); */
@@ -216,10 +217,10 @@ body {
 
 .banner-terceiro {
     width: 100%;
-    min-height: 445px;
+    min-height: 595px;
     height: auto;
     color: white;
-    background: darkblue;
+    background: #13135f;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -306,29 +307,32 @@ body {
     height: 100%
 }
 
-.titulo-projeto h1{
+.titulo-projeto h1 {
+    font-size: 55px;
+    margin-top: 65px;
     margin-left: 165px;
-   
 
-} 
+
+}
 
 .caixa-card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: black;
-    
+    width: 100%;
+    align-items: center;
+
 }
 
 .card-projetos {
+    box-shadow: -6px 23px 47px #363535;
     border-radius: 35px;
     border: none;
     background: #c2bfbf;
     width: 892px;
     margin: 22px;
     min-height: 190px
-
-
-
 }
 
 .card-itens {
@@ -339,17 +343,13 @@ body {
 }
 
 .card-body {
-    min-width: 844px;
+    /* min-width: 844px; */
 }
 
 
-.card-img{
-
-    margin-top: 10px;
-
-
-
-
+.card-img {
+    box-shadow: 4px 11px 17px #363535;
+    margin-top: 10px
 }
 
 
@@ -525,13 +525,41 @@ body {
         min-width: auto;
     }
 
-    .titulo-projeto h1{
+    .titulo-projeto h1 {
+        font-size: 65px;
         display: flex;
         justify-content: start;
-        margin: 30px 15px;
-        
+        margin: 30px 35px;
+
+
+    }
+
+
+
+
+    .caixa-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: black;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .card-projetos {
+        box-shadow: -6px 23px 47px #363535;
+        border-radius: 35px;
+        border: none;
+        background: #c2bfbf;
+        width: 335px;
+        margin: 22px;
     
-    } 
+    }
+
+    .card-itens {
+        margin: 15px;
+    }
 
 
 

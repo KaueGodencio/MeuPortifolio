@@ -217,7 +217,7 @@ body {
 
 .banner-terceiro {
     width: 100%;
-    min-height: 595px;
+    min-height: 350px;
     height: auto;
     color: white;
     background: #13135f;
@@ -249,10 +249,8 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    margin-left: 90px;
-    width: 287px;
-    border: 1px solid white;
-    border-radius: 36px;
+    width: 287px
+
 
 }
 
@@ -343,7 +341,7 @@ body {
 }
 
 .card-body {
-    /* min-width: 844px; */
+    min-width: 844px;
 }
 
 
@@ -484,10 +482,10 @@ body {
 
     .banner-terceiro {
         width: 100%;
-        min-height: 830px;
+        min-height: 610px;
         height: auto;
         color: white;
-        background: darkblue;
+        background: #13135f;
         background-repeat: no-repeat;
         background-size: 100% 100%;
 
@@ -512,8 +510,7 @@ body {
         margin-left: 90px;
         width: auto;
         margin: 5vw 13vw;
-        border-radius: 36px;
-        border: 1px solid white
+
     }
 
     .img-diploma {
@@ -554,7 +551,7 @@ body {
         background: #c2bfbf;
         width: 335px;
         margin: 22px;
-    
+
     }
 
     .card-itens {

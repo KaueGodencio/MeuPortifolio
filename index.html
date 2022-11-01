@@ -10,29 +10,22 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-
 </head>
 
 <body>
-
-    <header class="cabecalho">
-
-        <div class="container-grid header-flex">
-
-            <nav onclick="mostraEscondeMenu();" id="menu-principal" class="menu-principal menu ">
-                <a href="#">Inicio</a>
-                <a href="#">Sobre mim </a>
-                <a href="#">certificações</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contatos </a>
-
-            </nav>
-
-            <img onclick="mostraEscondeMenu();" class="menu-bars" src="img/bars.svg" alt="Menu de Barras"
-                title="Menu de Barras">
-        </div>
+    <div class="container-grid header-flex">
+        <nav onclick="mostraEscondeMenu();" id="menu-principal" class="menu-principal menu ">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mim </a>
+            <a href="#">certificações</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contatos </a>
+        </nav>
+        <img onclick="mostraEscondeMenu();" class="menu-bars" src="img/bars.svg" alt="Menu de Barras"
+            title="Menu de Barras">
+    </div>
     </header>
-
+    </div>
     <Main>
         <section class="banner">
             <div class="container-grid banner-box">
@@ -48,21 +41,14 @@
                 </div>
             </div>
         </section>
-
-        <section class="banner-segundo ">
-
+        <section class="banner-segundo">
             <div class="container-grid banner-segundo-box">
-
                 <div>
                     <img src="img/imagemperfil.jpg" class="perfil" alt="">
                 </div>
-
-                <div class="banner-dois-info ">
-
+                <div class="banner-dois-info">
                     <div class="apresentacao row">
-
-                        <h2> Sobre mim</h2>
-
+                        <h2> Sobre mim </h2>
                         <p>
                             Nascido e criado em São Paulo, tenho 23 anos, possuo curso de Lógica de Programação e
                             recentemente conclui um curso profissionalizante de Programador Front-End, pela instituição
@@ -71,76 +57,52 @@
                             Adquiri competências que me permitem realizar versionamento de código, codificação de
                             interfaces utilizando as principais tecnologias do Front-End (HTML, CSS, Bootstrap e
                             JavaScript), considerando as normas, padrões e requisitos técnicos criando layouts
-                            responsivos baseados em UX e UI, considerando as necessidades do usuário, empregando
-                            metodologias ágeis (SCRUM, KANBAN).
+                            responsivos baseados em UX e UI, considerando as necessidades do usuário.
                         </p>
-
                         <p>
                             Profissionalmente já atuei no setor de almoxarifado por um período de seis anos e oito
                             meses, onde obtive
                             experiência e habilidades comportamentais como proatividade em resolução de problemas, boa
                             comunicação escrita e verbal, cordialidade, comprometimento e trabalho em equipe.
                         </p>
-
                         <div class="caixa-btn">
                             <button type="button" class="btn btn-outline-secondary btn-d ">Baixar CV </button>
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
         </section>
 
         <section class="banner-terceiro">
             <!-- retorno retorno -->
-            <div class="container-grid banner-terceiro-box ">
-
-                <div class="caixa-certific titulo-certific row ">
-
+            <div class="container-grid banner-terceiro-box">
+                <div class="caixa-certific titulo-certific row">
                     <h1>Certificações</h1>
                 </div>
-
-
                 <div class="certific">
                     <div class="container-grid caixa-link ">
                         <div class="nav">
                             <h2> Lógica de Programação </h2>
-                            <ul>
+                            <a href="">
                                 <h1> <img class="img-diploma" src="img/diploma.png" alt=""></h1>
-                            </ul>
-                          
+                            </a>
                         </div>
-
-                        <div class="nav ">
+                        <div class="nav">
                             <h2> Programador Front-End</h2>
-                            <ul>
+                            <a href="">
                                 <h1> <img class="img-diploma" src="img/diploma.png" alt=""></h1>
-                            </ul>
-                            
+                            </a>
+
                         </div>
                     </div>
                 </div>
-
         </section>
-
         <section class="banner-quarto">
-
-            <div class="titulo-projeto row ">
-
+            <div class="titulo-projeto row">
                 <h1>Projetos </h1>
             </div>
-
-
-
-
-            <div class="container-grid banner-quarto-box ">
-
-
+            <div class="container-grid banner-quarto-box">
                 <div class=" caixa-card">
-
                     <div class="card mb-3 card-projetos">
                         <div class="row g-0 card-itens">
                             <div class="col-md-4 card-img">
@@ -154,22 +116,16 @@
                                         First tornando o site
                                         responsivo com um formato visualmente amigável ao usuário possibilitando acessar
                                         o sistema, em dispositivos móveis, como smartphones e tablets. </p>
-
                                     <div>
-
                                         <button type="button" class="btn btn-outline-primary">Acessar site</button>
-
                                         <button type="button" class="btn btn-secondary">Repositorio</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
                 <div class=" caixa-card">
-
                     <div class="card mb-3 card-projetos">
                         <div class="row g-0 card-itens">
                             <div class="col-md-4 card-img">
@@ -178,50 +134,63 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h3 class="card-title">Tela de Login</h3>
-                                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nobis veritatis deserunt tempore maiores distinctio corrupti quos corporis sit optio officia expedita sint a. Totam error non laborum quibusdam voluptas </p>
-
+                                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Fugit, nobis veritatis deserunt tempore maiores distinctio corrupti quos
+                                        corporis sit optio officia expedita sint a. Totam error non laborum quibusdam
+                                        voluptas </p>
                                     <div>
-
                                         <button type="button" class="btn btn-outline-primary">Acessar site</button>
-
                                         <button type="button" class="btn btn-secondary">Repositorio</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-
-
-
-
-
-
-
+                <div class=" caixa-card">
+                    <div class="card mb-3 card-projetos">
+                        <div class="row g-0 card-itens">
+                            <div class="col-md-4 card-img">
+                                <img src="img/projetotitanio.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Titânio</h3>
+                                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Fugit, nobis veritatis deserunt tempore maiores distinctio corrupti quos
+                                        corporis sit optio officia expedita sint a. Totam error non laborum quibusdam
+                                        voluptas </p>
+                                    <div>
+                                        <button type="button" class="btn btn-outline-primary">Acessar site</button>
+                                        <button type="button" class="btn btn-secondary">Repositorio</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
 
 
     </Main>
-
     <!-- INICIO FOOTER -->
-
-
-    <section>
-        <footer class="rodape">
-
-            <div class="container rodape">
-
-                <div class="row d-flex col-12 col-md-12 col-lg-12 d-flex ">
-                </div> <!-- FIM FOOTER -->
-
-
+    <section class="footer rodape">
+        <footer class="container rodape">
+            <div class="redes-sociais">
+                <a href="#">
+                    <img src="./img/icons8-gmail-240.png" class="logo-redes" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/icons8-linkedin-240.png" class="logo-redes" alt="">
+                </a>
+            </div>
+            <!-- FIM FOOTER -->
         </footer>
-
     </section>
+
     <script src="./js/script.js"></script>
 
 

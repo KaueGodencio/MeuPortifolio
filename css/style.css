@@ -28,7 +28,31 @@ body {
 
 }
 
+
+.barra {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+}
+
+.menu-centro {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
 /* INICIO CSS HEADER*/
+
 .cabecalho {
     background-color: black;
     padding-top: 4px;
@@ -45,6 +69,7 @@ body {
 .header-flex {
     display: flex;
     justify-content: end;
+    background: black;
 
 
 }
@@ -80,8 +105,9 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: linear-gradient(to right, #080864, #918d8d);
-
+    background: linear-gradient(63.13deg, #080864 51.04%, #918d8d 51.05%);
+    /*   background-image: linear-gradient(to right, #080864, #918d8d);
+ */
     /* background-image: linear-gradient(to right,#0d0d97 , #b3b3b3); */
     align-items: center;
     height: 100%;
@@ -249,9 +275,7 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    width: 287px
-
-
+    width: 287px;
 }
 
 .nav h2 {
@@ -289,7 +313,7 @@ body {
 
 .banner-quarto {
     width: 100%;
-    min-height: 830px;
+    min-height: 1690px;
     height: auto;
     color: white;
     background: #c2bfbf;
@@ -357,6 +381,49 @@ body {
 
 /* INICIO RODAPE/FOOTER */
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 334px;
+    background: #080864;
+
+}
+
+.redes-sociais {
+    width: 337px;
+
+}
+
+.redes-sociais a {
+    color: white;
+}
+
+.logo-redes {
+    width: 40.9%;
+}
+
+
+.logo-whats-footer {
+    color: white;
+    width: 310px;
+    font-size: 31px;
+    font-weight: 400;
+
+}
+
+.whats-logo {
+    width: 15.9%;
+}
+
+.texto-footer {
+    width: 310px;
+
+}
+
+
+
 /* FIM RODAPE/FOOTER */
 
 /* MIDIA CELULAR */
@@ -364,8 +431,9 @@ body {
 @media screen and (max-width: 767px) {
 
     .header-flex {
+        width: 100%;
         margin-top: 10px;
-        height: 60px;
+        height: 70px;
 
     }
 
@@ -401,7 +469,7 @@ body {
     }
 
     .menu-principal a {
-
+        color: white;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -628,7 +696,7 @@ body {
 
     }
 
-    .menu-principal a {
+    .menu-principal a{
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -639,10 +707,7 @@ body {
         margin-left: 20px;
         margin-bottom: 25px;
         /*  background-color: rgba(255, 255, 255, 0.8); */
-
-
-
-    }
+     }
 
     .menu-principal {
         position: fixed;
@@ -659,19 +724,11 @@ body {
 
 
     }
-
-
-
-
-
 }
 
 
 
-
-
-
-/* midia desktop */
+ /* midia desktop */
 @media screen and (min-width: 992px) {
     .menu-bars {
         display: none;
